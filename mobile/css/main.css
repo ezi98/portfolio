@@ -1,0 +1,188 @@
+/* index css */
+
+/* 비쥬얼 영역 */
+.visual .swiper1{
+    width: 100%;
+    height: auto;}
+
+    /* --maskL: 50%;
+    --maskB: 0;
+    --maskR: 50%;
+    --maskT: 100%   */
+
+    /* 높이 고정은 높이값적용 유동이면 auto */
+    .visual .swiper-container .swiper-wrapper .swiper-slide .dim:before {
+        height: 60%;}
+    .visual .swiper-container .swiper-wrapper .swiper-slide .dim:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.32) 60%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+.visual .swiper-container .swiper-wrapper .swiper-slide .txt {
+    position: absolute;
+    width: 100%; text-align: center;
+    top:40%;
+    left: 0; z-index: 10;
+    color: #fff;
+}
+
+
+
+
+.visual .swiper-container .swiper-wrapper .swiper-slide .txt strong {
+    margin-bottom:  40px;
+    display: block;
+    font-weight: 600;
+    font-size: 2.7rem; color:#3CB149;
+    transition: .4s
+}
+.visual .swiper1 .swiper-slide img{width: 100%;}
+.visual .swiper1 .swiper-slide p{
+    font-size: 1.7rem; color: #fff;
+    }
+/* 스와이퍼 공통 */
+.swiper-button-next, .swiper-button-prev{color: #fff}
+.swiper-pagination-bullet{background: #fff; opacity: .4;}
+.swiper-pagination-bullet-active{background: #fff; opacity: 1;}
+
+
+
+/* 회사소개 */
+#content .company{overflow: hidden; text-align: justify;margin-bottom: 30px;}
+#content .company div{color: #333; font-size: 1.35rem;}
+#content .company h3{font-size: 2rem; text-align: center; font-weight: 800; margin-bottom: 10px;}
+#content .company div strong{font-size: 1.5rem; margin-bottom: 30px; display: block; text-align: center; font-weight: normal;}
+#content .company span{display: block; color: #3CB149; margin:30px 0 5px 0; font-size: 1.5rem; font-weight: 400; }
+#content .company p{font-size: 1.1rem;}
+#content .company img{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    }
+#content .company a{
+     background: rgba(79, 55, 139, 0.3);
+    color: #4F378B;
+    font-size: 1.0rem;
+    text-align: center;
+    width: 200px;
+    padding: 10px 0;
+    margin: 30px auto 50px;
+    border-radius: 15px;
+    font-weight: 700;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, .2);
+    
+}
+/* 사업소개 */
+#content .about{margin-bottom: 50px;}
+#content .about h3{margin-bottom: 30px;}
+#content .about .swiper2{width: 94%; margin: 0 auto 50px;    }
+#content .about .swiper2 .swiper-wrapper{padding-bottom: 50px;}
+#content .about h4{font-size: 1.3rem; text-align: center; margin-bottom: 15px;}
+#content .about li strong,#content .about li span{display: block;
+    padding-bottom: 10px;}
+     #content .about  ul li ul li{display: flex; justify-content: space-between;
+     border-bottom:1px solid #6535B8;
+     padding-top: 40px;
+     overflow: hidden;
+     font-size: 1.2rem;
+    }   
+
+#content .about img{
+    width: 100% }
+
+.swiper2 .swiper-pagination-bullet{background: #26a706; opacity: .4;}
+.swiper2 .swiper-pagination-bullet-active{background: #225a01; opacity: 1;}
+
+
+/* ESG경영 */
+#content .esg{ margin-bottom: 60px;}
+#content .esg .tabs li a.active { color: #fff; font-weight:600; }
+#content .esg .tabs{
+    border-radius: 10px;
+    background:#3CB149;
+    display: flex;
+    padding: 7px 0; margin:20px  auto;}
+    #content .esg .tabs li{
+    position: relative; width: 33.33%; text-align: center;
+    }
+    #content .esg .tabs li:not(:last-child)::before{
+    content: '';
+    background: #333;
+    width: 1px;
+    height: 85%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;}
+    #content .esg .tabs>li a{padding: 3px 0;}
+    #content .esg .swiper_tab .swiper-wrapper{padding-bottom: 50px;}
+    #content .esg .swiper_tab img{width: 100%; border-radius: 10px;}
+    #content .esg .swiper_tab dt{margin: 20px 0; font-size: 1.6rem;
+         color: #3CB149; font-weight: 600; text-align: center;}
+    #content .esg .swiper_tab dd{line-height: 1.5rem; text-align: justify; margin-bottom: 10px; }
+    #content .esg .swiper_tab a{padding: 6px 0; width: 25%; margin: 0 auto;
+       text-align: center; color: #26a706;  border-radius: 20px;
+       border: 1px solid #26a706;}
+       
+#content .esg .view_m{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-indent: -999px;
+    overflow: hidden;
+    background: url(../images/main/more_btn_b.svg) no-repeat;
+    background-size: 40px 40px;
+    padding: 10px;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    display: block;
+}
+
+.swiper_tab .swiper-pagination-bullet{background: #26a706; opacity: .4;}
+.swiper_tab .swiper-pagination-bullet-active{background: #225a01; opacity: 1;}
+
+
+
+/* 인재채용 */
+#content .manage div{
+    font-size: 1.5rem;
+   padding: 120px 0;
+    width: 100%;
+    height: auto;
+    background: url(../images/main/section4_x2.png) center no-repeat; background-size: cover; }
+#content .manage div ul li{
+     overflow: hidden; backdrop-filter: blur(5px);
+    border-bottom: 1px solid #fff;
+    position: relative;}
+    #content .manage h3{margin-bottom:50px;}
+#content .manage p{margin-bottom: 20px;}
+#content .manage div ul li a{display: flex; justify-content: space-between;
+   width:86%; padding: 20px;}
+#content .manage div ul li a span{ font-size: 3rem; }
+#content .manage div ul li h4{
+    color: #000; margin-top: 10px;
+    font-weight: 500;}
+#content .manage div ul li i{
+    color: #3CB149;  font-size: 1.5rem; margin-top: 15px;}
+#content .manage div ul{
+        height: 80%;
+        border-radius: 10px; overflow: hidden;
+        border-style: none;
+        border: 1px solid #fff;
+        margin: 0 auto;
+        width: 80%;
+    background: rgba(255, 255, 255, .7);}
+
+
+
+
+  

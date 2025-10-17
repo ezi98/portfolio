@@ -1,0 +1,98 @@
+/* sub1_1 콘텐츠 */
+
+
+ /* p{1.125emfont-size: ;} .subtitle{1.4rem}  title 2rem */
+/* 서브 메뉴 영역 */
+.sub_nav{border-bottom:1px solid #ccc;}
+.sub_nav ul{width: 100%; margin: 0 auto;display: flex;}
+.sub_nav ul li{width: 50%; box-sizing: border-box;
+         text-align: center;}
+.sub_nav ul li a{font-size:1.1rem; font-weight: 600;
+    padding: 15px 0; 
+}
+.sub_nav ul li a.current{background:var(--font-color-main1); color: #fff;}
+
+.visual{width: 100%;
+    position: relative;
+}
+.visual strong{font-size: 1.5rem; color: #fff;
+    font-weight: 600; position: absolute;
+    width: 100%; left: 0; top: 50%; display: block;
+    text-align: center;}
+.visual img{
+        width: 100%;
+        margin-top: 70px;
+        }
+
+#content{padding:0 0;}
+/* #content .title_area{position: relative; height: 188px;
+     background: url(../images/sub1_1/head01x2.png) center bottom no-repeat;
+     background-size: cover;} */
+     #content .title_area h2{left:0; top:10px; width: 100%; text-align: center;}
+     #content .title_area p{ font-size: 1.3rem; margin:0 20px 50px 20px;text-align: justify; text-align: center;}
+     #content span{display: block;}
+     #content section {
+        padding: 0;
+      }
+      #content .content_area .box1{ width: 100%;position: relative;}
+      #content .content_area .box1 img{border-radius: 15px 15px 15px 0; width: 100%; height: auto; overflow: hidden;}
+      #content .content_area .box2{width:100%;height:200px;background:#fff;
+        position: relative; top: -100px; left: 0;
+            border-radius: 15px 0 0 0; outline: none;}
+        #content .content_area .box2 dl{width: 100%;
+            }
+        #content .content_area .box2 dl dt{padding-left: 20px; padding-top: 20px; padding-right: 20px; font-size: 1.5rem; font-weight: 500;}
+        #content .content_area .box2 dl dd{font-size: 1.2rem;
+            font-weight: 400;           
+            padding-top: 30px;
+            line-height: 2.2rem;
+            text-align: justify;
+            padding-left: 20px;
+            padding-right:20px;}
+
+
+        
+      
+      /* #content .content_area .mid{padding: 0 20px 50px; margin-bottom: 50px;
+              border-bottom: 2px solid #050D1B;margin-top: -150px;}
+      #content .content_area .mid p{font-size: 1.3rem; text-align: center;} */
+
+
+      #content .email_box {
+        margin-top: -100px; /* Adjust this value as needed */
+        /* Other styles for email_box */}
+#content .email_box{width:90%; margin: 0 auto;
+    border: 1px solid #f4f4f4;
+    box-sizing: border-box;}
+#content .email_box div{padding: 20px;}
+#content .email_box label{font-size: 1.3rem;
+    font-weight: 700; margin-bottom: 15px; display: block;}
+#content .email_box input, #content .email_box textarea
+#content .email_box input, #content .email_box select,#content .email_box textarea{
+            padding: 15px 5%; width: 90%;
+            font-size: 1.5rem; border: 0; background: #fff;
+            color: purple;
+            border-radius: 15px; outline: none;
+            box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .1);
+            transition: all .5s ease-out;}
+
+#content .email_box input:focus, #content .email_box textarea:focus{
+               box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .1);
+               transform: scale(1.03); background: skyblue;}
+
+#content .email_box textarea{height: 200px;}
+#content button{padding: 15px 50px; background: #3CB149; 
+                        color: #fff; font-size: 1.2rem;
+                        border-radius: 15px; border: 0;
+                        margin: 50px auto 50px; display: block; cursor: pointer;}
+                
+#content .email_info{border: 1px solid #f4f4f4; width: 90%; margin: 50px auto 0; box-sizing: border-box;
+             }
+#content .email_info p{margin: 20px 0;}
+#content .email_info dl{margin-bottom: 30px;}
+#content .email_info dt{font-size: 1.25rem; font-weight: 600;
+                margin-bottom: 15px;}
+#content .email_info dd{line-height: 1.8rem; font-size: 1.1rem;}
+#content .consent-checkbox{display: flex;
+                        margin-top: 40px;
+                        justify-content: center;}

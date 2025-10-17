@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <style>
+        *{margin: 0; padding: 0;}
+        a{display: block; color: #333; text-decoration: none;}
+
+        .select{position: relative; z-index: 10;}
+        .select .select_btn{width:100%; text-align: center;
+            box-sizing: border-box;
+            padding: 15px; background: orange; color: #fff;
+            position: relative;}
+        .select .select_btn span{position: absolute; right: 20px;top: 15px;}
+        .select ul{position: absolute; top:54px; left:0;
+              width:100%; display: none;}
+        .select ul li a{text-align: center;
+            padding: 15px; background: green; color: #fff;}
+        
+        .tabs div{width:100%; height: 300px; background: pink; margin-bottom: 10px;
+                  font-size: 50px; color: #fff;
+                  display: none;}    
+    </style>
+</head>
+<body>
+
+    <div class="select">
+        <a class="select_btn" href="#">
+            <strong>CVS배송</strong>
+            <span class="material-symbols-outlined">expand_more</span>
+        </a>
+        <ul>
+            <li><a href="#">차량관리</a></li>
+            <li><a href="#">선행물류</a></li>
+            <li><a href="#">간선운송</a></li>
+        </ul>
+    </div>
+
+    <div class="tabs">
+        <div>
+            <img src="../images/sub2_2/sub2_01.png" alt="">
+            <dl>
+                <dt></dt>
+                <dd></dd>
+            </dl>
+        </div>
+        <div>
+            <img src="../images/sub2_2/sub2_01.png" alt="">
+            <dl>
+                <dt></dt>
+                <dd></dd>
+            </dl>
+
+        </div>
+        <div>
+            <img src="../images/sub2_2/sub2_01.png" alt="">
+            <dl>
+                <dt></dt>
+                <dd></dd>
+            </dl>
+
+        </div>
+        <div>
+            <img src="../images/sub2_2/sub2_01.png" alt="">
+            <dl>
+                <dt></dt>
+                <dd></dd>
+            </dl>
+
+        </div>
+    </div>
+    
+    <script src="./jquery-1.12.4.min.js"></script>
+    <script>
+         $('.tabs div:eq(0)').show();  //첫번째 탭내용 열어라
+
+         $('.select_btn').click(function(e){ //탭메뉴 클릭 시
+            e.preventDefault();
+            $('.select ul').fadeIn('slow');  //탭서브메뉴를 열어라
+         });
+
+         $('.select ul li a').click(function(e){  //탭서브메뉴 클릭 시
+            e.preventDefault();
+            var txt = $(this).text(); //탭 서브메뉴의 텍스트를 추출
+            var ind = $(this).index('.select ul li a');  //클릭 시 인덱스 추출
+            //console.log(txt);
+            $('.select_btn strong').text(txt);  //탭메뉴의 텍스트를 바꾸어라
+            $('.select ul').fadeOut('fast'); //탭서브메뉴를 닫아라
+
+            $('.tabs div').hide();           //모든 탭 내용을 안보이게..
+            $('.tabs div:eq('+ ind +')').show();  //클릭한 메뉴에 해당하는 탭 내용만 열어라
+         });
+    </script>
+</body>
+</html>

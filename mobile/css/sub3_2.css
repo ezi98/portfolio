@@ -1,0 +1,73 @@
+/* sub1_1 콘텐츠 */
+
+/* 서브 메뉴 영역 */
+.sub_nav{border-bottom:1px solid #ccc;}
+.sub_nav ul{width: 100%; margin: 0 auto;display: flex;}
+.sub_nav ul li{width: 33.33%; box-sizing: border-box;
+         text-align: center;}
+.sub_nav ul li a{font-size:1.1rem; font-weight: 600;
+    padding: 15px 0; 
+}
+.sub_nav ul li a.current{background:var(--font-color-main1); color: #fff;}
+
+.visual{width: 100%;
+    position: relative;
+}
+.visual strong{font-size: 1.5rem; color: #fff;
+    font-weight: 600; position: absolute;
+    width: 100%; left: 0; top: 50%; display: block;
+    text-align: center;}
+.visual img{
+        width: 100%;
+        margin-top: 70px;
+        }
+#content{padding:0 0;}
+#content .title_area p {
+  font-size: 1.3rem;
+  margin: 0 20px 50px 20px;
+  text-align: justify;
+  text-align: center;
+}
+
+/* 상단 영역 */
+.environment_policy{width: 100%;}
+.intro1{display: flex; flex-wrap: wrap;
+    align-items: center; gap: 50px; margin-bottom: 50px;}
+.intro1 dl{width: 90%; margin: auto 5%}
+ .intro1 dt{font-size: 1.8rem; font-weight: 500; width: 700px;}
+ .intro1 dd{font-size: 1.3rem; line-height: 2rem; padding-top: 30px;
+    font-weight: 400;}
+ .intro1 img{ width: 100%; border-radius: 20px 200px 20px 20px;}
+ 
+ /* 하단 영역 */
+ .intro2{display: flex; align-items: center; gap: 50px; flex-wrap: wrap;}
+ .intro2 dl{width: 90%; margin: auto 5%;}
+ .intro2 dt{font-size: 1.8rem; font-weight: 500; width: 700px;}
+ .intro2 dd{font-size: 1.3rem; line-height: 2rem;
+    padding-top: 30px; font-weight: 400;}
+ .intro2 img{width: 100%; border-radius: 20px 200px 20px 20px;}
+ 
+ 
+ 
+ /* 카운트 영역 */
+ .count{width:100%;
+    position: relative; top:0; left: 50%; transform: translateX(-50%); margin: 100px 0;}
+ .count h4{margin: 30px auto 80px; text-align: center;}
+ .count h4::after{content: "";
+    border: 0.5px solid #6535B8;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    transform: translateX(-50%);}
+ .count .count_wrap {width: 100%;padding: 50px 0;
+    display: flex; gap: 30px; justify-content: center;}
+ .count ul{text-align: center; background: #fff;
+    border-radius: 20px; padding: 30px 0;
+    border: 1px solid #ccc;}
+ .count ul {width: 430px;}
+ .count div{font-size: 1.5rem; font-weight: 600; color: #3CB149;}
+ .count ul li p{font-size: 1.1rem; font-weight: 400; color: #050D1B;}
+ .count ul li i{font-size:3.5rem; color: #ccc; margin-bottom: 25px;}
+ 
+ .count h4{font-size: 2.5rem;}

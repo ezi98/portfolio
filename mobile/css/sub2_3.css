@@ -1,0 +1,130 @@
+/* sub1_1 콘텐츠 */
+
+/* 서브 메뉴 영역 */
+.sub_nav{border-bottom:1px solid #ccc;}
+.sub_nav ul{width: 100%; margin: 0 auto;display: flex;}
+.sub_nav ul li{width: 33.33%; box-sizing: border-box;
+         text-align: center;}
+.sub_nav ul li a{font-size:1.1rem; font-weight: 600;
+    padding: 15px 0; 
+}
+.sub_nav ul li a.current{background:var(--font-color-main1); color: #fff;}
+
+.visual{width: 100%;
+    position: relative;
+}
+.visual strong{font-size: 1.5rem; color: #fff;
+    font-weight: 600; position: absolute;
+    width: 100%; left: 0; top: 50%; display: block;
+    text-align: center;}
+.visual img{
+        width: 100%;
+        margin-top: 70px;
+        }
+
+#content{padding:0 0;}
+/* #content .title_area{position: relative; height: 188px;
+     background: url(../images/sub1_1/head01x2.png) center bottom no-repeat;
+     background-size: cover;} */
+     #content .title_area h2{left:0; top:10px; width: 100%; text-align: center;}
+     #content .title_area p{ font-size: 1.3rem; margin:0 20px 50px 20px;text-align: justify; text-align: center;}
+     #content span{display: block;}
+
+
+
+
+     #content section {
+        padding: 0;
+      }
+      
+      /* .intro */
+      @keyframes slideup {
+        from {
+          transform: translateY(100%);
+          opacity: 0;
+        }
+        to {
+          transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      
+      #content .content_area .intro {
+        width: 100%;
+        position: relative;
+        img {
+          width: 100%;
+          filter: brightness(.6);
+        }
+        .intro__title_container {
+          width: 90%;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          text-shadow: 0 4px 10px rgba(0,0,0,.7);
+        }
+        .intro__title {
+          text-align: center;
+          color: #fff;
+          .business {
+            display: block;
+            margin-bottom: 2.5%;
+            animation: slideup .75s ease-out;
+          }
+          h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 10%;
+            animation: slideup .75s ease-out;
+            animation-delay: .25s;
+          }
+          .slogan {
+            font-size: 1.1rem;
+            font-weight: 200;
+            line-height: 1.5;
+            letter-spacing: -0.085rem;
+            margin-bottom: 30px;
+            animation: slideup .75s ease-out;
+            animation-delay: .5s;
+            span {
+              display: block;
+              margin-bottom: 5%;
+            }
+          }
+          .sector {
+            animation: slideup .75s ease-out;
+            animation-delay: .75s;
+            &::before {
+              content: '';
+              display: block;
+              width: 25%;
+              height: 1px;
+              background: rgba(255,255,255,.7);
+              margin: 0 auto 30px;
+            }
+          }
+        }
+      }
+
+    .bottom{margin: auto 20px;}
+    .bottom ul li{ display: flex; align-items: center; margin: 100px 0; flex-direction: column;
+        }
+    .bottom ul li:nth-of-type(2){display: flex; position: relative;}
+    .bottom ul li img{width: 100%;}
+    .bottom ul li dl{width: 100%; position: relative; margin-top: 100px;}
+    .bottom ul li:nth-of-type(2) dl{text-align: center;
+     }
+     .bottom ul li dl dd{text-align: justify;}
+    .bottom ul li dl dt{font-size: 1.4rem; font-weight: 500; margin-bottom: 20px;}
+    .bottom ul li dl dd:nth-of-type(2){font-size: 1.1rem; padding-top: 30px; line-height: 2rem; }
+    .bottom ul li dl::before{content:"";background: #3CB149; display: block;
+       width: 50px; height: 50px; color: #fff;
+       font-size: 1.5rem; text-align: center; line-height: 50px;
+       border-radius: 50%; position: absolute; top:-70px}
+    .bottom ul li:nth-of-type(1) dl::before{content: '01'; left:0;}
+    .bottom ul li:nth-of-type(2) dl::before{content: '02'; right:0}
+    .bottom ul li:nth-of-type(3) dl::before{content: '03'; left:0;}
+
+

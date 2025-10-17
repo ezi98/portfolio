@@ -1,0 +1,79 @@
+/* sub1_1 콘텐츠 */
+
+/* 서브 메뉴 영역 */
+.sub_nav{border-bottom:1px solid #ccc;}
+.sub_nav ul{width: 100%; margin: 0 auto;display: flex;}
+.sub_nav ul li{width: 50%; box-sizing: border-box;
+    text-align: center;}
+.sub_nav ul li a{font-size:1.1rem; font-weight: 600;
+    padding: 15px 0; 
+}
+.sub_nav ul li a.current{background:var(--font-color-main1); color: #fff;}
+
+.visual{width: 100%;
+    position: relative;
+}
+.visual strong{font-size: 1.5rem; color: #fff;
+    font-weight: 600; position: absolute;
+    width: 100%; left: 0; top: 50%; display: block;
+    text-align: center;}
+.visual img{
+        width: 100%;
+        margin-top: 70px;
+        }
+
+#content{padding:0 0;}
+/* #content .title_area{position: relative; height: 188px;
+     background: url(../images/sub1_1/head01x2.png) center bottom no-repeat;
+     background-size: cover;} */
+     #content .title_area h2{left:0; top:10px; width: 100%; text-align: center;}
+     #content .title_area p{ font-size: 1.3rem; margin:0 20px 50px 20px;text-align: justify; text-align: center;}
+     #content span{display: block;}
+     #content section {
+        padding: 0;
+      }
+      
+
+
+.content_area .faq{width:100%; border-bottom:1px solid #ddd;font-size:12px; margin: 0 0 150px 0;}  
+.content_area .faq .hgroup{position:relative;margin:100px 0 40px 0; }
+.content_area .faq .hgroup h3{font-size: 2rem; color: #3CB149; font-weight: 500; padding-left:50px; text-align: start;}  
+.content_area .faq ul{margin:0;padding:0;list-style:none}
+.content_area .faq ul li:nth-of-type(1){border-top: 2px solid #000;}  
+.content_area .faq .hgroup .all{position:absolute; top:5px; right:10px; color:#333; text-decoration:none;}  
+.content_area .faq .q{margin:0;padding: 0; border-top:1px solid #ddd; position: relative;
+    margin: 0;
+    padding: 10px 15px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    }  
+.content_area .faq .q span{position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;}
+
+.content_area .faq .q a.trigger{display:block;padding:30px;background:#fafafa;color:#333;text-align:left;text-decoration:none;
+    font-size: 1.2rem;}
+    .faq .q a::before{
+    font-family: FontAwesome;
+    content: "\f2c4";
+    display: block;
+    color: #6535B8;
+    }
+.content_area .faq .a::before{
+    font-family: FontAwesome;
+    content: "\f031";
+    display: inline-block;
+    margin-right: 10px;
+    color: #6535B8;}
+.content_area .faq .hide .q a.trigger{font-weight:normal;background:none}  
+.content_area .faq .q a.trigger:hover,  
+.content_area .faq .q a.trigger:active,  
+.content_area .faq .q a.trigger:focus{background:#feeddd;color:#000} 
+.content_area .faq .a{margin:0;line-height:1.5;
+     margin-top:0px; margin-bottom:0px; text-align: justify;
+      font-size: 1rem; display: none;
+    padding: 30px;}
+
+      
