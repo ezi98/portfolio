@@ -1,0 +1,68 @@
+/* 회사소개 내용 콘텐츠 */
+
+#content .content_area{
+    width: 1400px; margin: 0 auto;
+    padding-bottom: 150px;
+}
+#content .content_area .ontopOftrans{margin: 0 auto; align-items: center; display: flex; justify-content: center; 
+    height: 800px;
+    position: relative;}
+#content .content_area .ontopOftrans p{position: absolute; font-size: 1.2rem; top: 70%; left: 10px;
+    font-weight: 400;
+    width: 880px;
+    padding: 20px 20px;
+    line-height: 2.2rem;
+    text-align: justify;
+    color:  #050d1b;
+    border: 1px solid #fff; background: #fff;
+    border-radius: 20px;}
+
+    .bottom{margin: 0 auto;}
+    .bottom ul li{ display: flex; align-items: center; margin: 150px 0 250px;}
+    .bottom ul li:nth-of-type(2){display: flex; flex-direction: row-reverse;}
+    
+    .bottom ul li dl{padding-left: 80px;}
+    .bottom ul li:nth-of-type(2) dl{text-align: end;
+       padding-right: 80px;}
+    
+    .bottom ul li dl dt{font-size: 1.8rem; font-weight: 500;}
+    .bottom ul li dl dd:nth-of-type(2){font-size: 1.1rem; padding-top: 30px; line-height: 2rem; width: 600px;}
+    .bottom ul li dl dd:nth-of-type(1){background: #3CB149;
+       width: 50px; height: 50px; color: #fff;
+       font-size: 1.5rem; text-align: center; line-height: 50px;
+       border-radius: 50%; margin-bottom: 30px;}
+    .bottom ul li:nth-of-type(2) dl dd:nth-of-type(1){margin-left: 550px;}
+
+
+
+
+
+
+    
+    /* #content .content_area .cvs_list material-symbols-outlined{position: absolute; left: 50%;} */
+
+
+
+
+                
+    
+
+
+
+    
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+

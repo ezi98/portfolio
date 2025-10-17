@@ -1,0 +1,129 @@
+/* 회사소개 내용 콘텐츠 */
+
+#content .content_area{
+    width: 1400px; margin: 0 auto;
+    
+}
+    /* CVS 물류사업 영역 */
+#content .content_area .cvs_top{margin: 0 auto; align-items: center; display: flex; justify-content: center; 
+    height: 800px;
+    position: relative;}
+#content .content_area .cvs_top p {position: absolute; font-size: 1.2rem; top: 70%; left: 10px;
+    font-weight: 400;
+    width: 880px;
+    padding: 20px 20px;
+    line-height: 2.2rem;
+    text-align: justify;
+    color:  #050d1b;
+    border: 1px solid #fff; background: #fff;
+    border-radius: 20px;
+    }
+    /* cvs 첫번째 컨텐츠 */
+    #content .content_area .cvs_list{ margin-top: 100px;
+    }
+    #content .content_area .cvs_list ul{display: flex; flex-wrap: wrap; 
+        justify-content: space-evenly;
+        row-gap: 24px; }
+
+   #content .content_area .cvs_list ul li{border-radius: 30px; position: relative;
+    background: #fdfdfd;
+    border: 1px solid #ccc;}
+    #content .content_area .cvs_list ul li:nth-of-type(1){width: 746px; height: 390px;
+        ; 
+        }
+    #content .content_area .cvs_list ul li:nth-of-type(2){width: 597px; height: 390px;
+        
+        }
+    #content .content_area .cvs_list ul li:nth-of-type(3){width: 597px; height: 390px;
+            
+           }
+    #content .content_area .cvs_list ul li:nth-of-type(4){width: 746px; height: 390px;
+               
+             }
+    #content .content_area .cvs_list ul li span{font-size: 10rem; display: block;
+        position: absolute;left: 65%;top:190px;
+        color:#3CB149;}
+    #content .content_area .cvs_list ul dl{padding: 50px 60px; color: #272b3d;}
+    #content .content_area .cvs_list ul dl dt{font-size: 2.5rem; font-size: 600; padding-bottom: 150px;}
+    #content .content_area .cvs_list ul dl dd{font-size: 1.5rem;}
+
+    #content .content_area .cvs_list .subText1{text-align: left; margin-left: 50px; margin-top: 100px;
+    line-height: 1.5;}
+    #content .content_area .cvs_list .subText1 dt{font-size: 2.0rem; font-weight: bold; padding-bottom: 40px;}
+    #content .content_area .cvs_list .subText1 dd{font-size: 1.0rem;}
+
+   
+
+
+    /* 두번째 컨텐츠 */
+
+.cvs_bottom{width: 2000px; height: 900px;
+      background: #F6F6F8; 
+        position: relative; left: 50%; transform: translateX(-50%);
+        padding-top: 100px;
+        margin-top: 150px;
+    }
+.cvs_bottom h3{font-size: 2.8rem; width: 1000px;  height: 160px; 
+    color: #fff;
+    border: 1px solid #2B3B42;
+    border-radius: 30px;
+    background: #2B3B42;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto ;
+    display: flex; justify-content: center;
+    
+    }
+
+.cvs_bottom ul{display:flex; justify-content: center; gap: 40px; margin-top: 60px;}
+.cvs_bottom ul li{width: 320px; 
+    height: 270px;  
+    background: #fdfdfd;
+    align-items: center;
+    display: flex; justify-content: center; 
+    text-align: center;
+    flex-direction: column;
+    border-radius: 30px;
+    border: 1px solid #6535B8;
+    margin-top: 50px;}
+
+.cvs_bottom ul li span,.cvs_bottom ul li strong{display: block;
+    }
+.cvs_bottom ul li span{font-size: 8rem; color: #3CB149;}
+.cvs_bottom ul li strong{font-size: 2.5rem;}
+.cvs_bottom dl{text-align: left;
+    margin-left: 350px;
+    margin-top: 100px;
+    line-height: 1.5; color: #272b3d; }
+.cvs_bottom dl dt{font-size: 2.0rem; font-weight: bold; padding-bottom: 40px;}
+.cvs_bottom dl dd{font-size: 1.0rem;}
+
+
+    
+    /* #content .content_area .cvs_list material-symbols-outlined{position: absolute; left: 50%;} */
+
+
+
+
+                
+    
+
+
+
+    
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+

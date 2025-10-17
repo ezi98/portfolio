@@ -1,0 +1,105 @@
+/* 그룹개요 내용 콘텐츠 */
+#content .content_area{
+    width: 1400px; margin: 0 auto; background: #fff;
+    padding-bottom: 150px;
+}
+
+
+#content .history_menu ul{font-size: 1.3rem; font-weight: 500;
+    text-align: center; display: flex; gap: 20px; 
+    justify-content: center;}
+#content .history_menu ul li{width: 200px;
+    text-align: center;
+    overflow: hidden;
+    border: 2px solid #3CB149;
+    border-radius: 20px;}
+#content .history_menu ul li a{padding: 10px 0;
+    text-align: center; transition: all 0.5s;}
+#content .history_menu ul li a:hover{color:#292929;
+         background: var(--font-color-main2);
+        border-color: var(--font-color-point1);}
+
+    .tableWrap{position: relative;margin-top: 100px;}
+    .tableWrap::before{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background: #ccc;
+    }
+
+.content_area img{border-radius: 30px; box-shadow: 1px 1px 15px 1px rgba(0,0,0,.3);}
+.tableWrap .inbox{display: flex; width: 100%; align-items: start;
+    justify-content: space-between; padding: 0 0 130px;
+    box-sizing: border-box; margin: 0 auto;}
+
+.tableWrap .sim{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    width: 43px;
+    transform: translateX(-50%);
+}
+
+.tableWrap .sim{vertical-align: middle;}
+
+.tableWrap dl{padding-left: 35px; color: #333; line-height: 1.5rem;}
+.tableWrap dl dt{font-size: 1.6rem;}
+.tableWrap dl dd{font-size: 1.0rem; margin-top: 30px;
+    padding: 0 0 20px;}
+
+
+@keyframes ani1{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.5);
+    }
+}
+
+.tableWrap dl dt::before{
+    width: 15px;
+    height: 15px;
+    content: '';
+    display: block;
+    background-color:var(--font-color-point1);
+    opacity:.5;
+    border-radius: 50%;
+    position: absolute;
+    left: -72px;
+    top: 5px;
+
+    animation:ani1 1s ease-in-out infinite alternate;
+}
+.tableWrap dl dt::after{
+    content: '';
+    display: block;
+    width: 15px;
+    height: 15px;
+    background:var(--font-color-point1);
+    border-radius: 50%;
+    position: absolute;
+    left: -72px;
+    top: 5px;
+    overflow: hidden;
+    animation: dot linear 1.5s infinite;
+}
+.tableWrap dl dt{position: relative;}
+.tableWrap .box_text{width:670px;}
+
+
+
+#content .fix{
+    position: fixed; left:0; top:0; background: rgba(255,255,255,.6);
+    width: 100%; z-index: 50; box-shadow: 1px 1px 10px 1px rgba(0,0,0,.2);
+    background: #fff; padding: 10px 0;
+}
+#content .history_menu ul li a.spy{
+    background: #D1EAA3; color: #fff;
+}
+
+ 

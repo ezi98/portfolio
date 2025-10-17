@@ -1,0 +1,12 @@
+{
+    "sam": [
+        {"Name":"GET핫아메리카노L","Price":1500,"Descript":"GET즉석HOT아메리카노","Image":"images/product1.jpg","Tag":"#즉석커피#GET"},
+        {"Name":"HEYROO뻥이요스낵","Price":1500,"Descript":"CU 단독] 옥수수 알갱이에 고소한 달콤한 버터맛을 입힌 리뉴얼 신상품","Image":"images/product2.jpg","Tag":"#스낵#과자류#"},
+        {"Name":"HEYROO뻥이요카라멜","Price":1500,"Descript":"[CU 단독]사양벌꿀을 첨가하여 더욱 꿀맛!","Image":"images/product3.jpg","Tag":"#스낵#과자류#"},
+        {"Name":"HEYROO초코칩쿠키","Price":1500,"Descript":"[CU 단독]카페형 컨셉으로 커피와 어울리는, 초코칩 함량이 20%인 쿠키로 진한 초코맛을 느낄 수 있는 상품","Image":"images/product4.jpg","Tag":"#스낵#과자류#"},
+        {"Name":"HEYROO떡볶이스낵","Price":1500,"Descript":"[CU 단독]과자속까지 스며드는 특별한 공법으로 더욱 리얼한 떡볶이의 맛","Image":"images/product5.jpg","Tag":"#스낵#과자류#"},
+        {"Name":"HEYROO소프트계란과자","Price":1500,"Descript":"CU 단독]먹기좋은 한입크기의 소프트 계란과자","Image":"images/product6.jpg","Tag":"#스낵#과자류#"},
+        {"Name":"PBICK)작은별초코","Price":1500,"Descript":"[CU 단독]별모양의 고소한 과자에, 더욱 진하게 업그레이된 초콜릿","Image":"images/product7.jpg","Tag":"#스낵#과자류#"},
+        {"Name":"HEYROO작은별딸기스낵","Price":1500,"Descript":"[CU 단독]별모양의 옥수수과자 속에 달콤한 딸기 크림이 진한 풍미를 자극하는 제품","Image":"images/product8.jpg","Tag":"#스낵#과자류#"}
+    ]
+}

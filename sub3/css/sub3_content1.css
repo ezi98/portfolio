@@ -1,0 +1,143 @@
+/* 회사소개 내용 콘텐츠 */
+#content .inner1400{
+    width: 1400px; margin: 0 auto;
+    padding-bottom: 150px;
+}
+.section-grid {
+    padding: 110px 0;     line-height: 1.6;
+}
+
+
+h2{ font-size: 2.1rem; padding-bottom: 80px; color: #111111;}
+#content .section-grid .inner1400 ul{ display: flex; justify-content: space-between; gap: 15px;
+     margin: 0 auto; list-style: none;;}
+#content .section-grid .inner1400 .first_area ul li{width: 33.33%;}
+#content .section-grid .inner1400 .first_area ul li img{transition: all .5s ease-out;}
+#content .section-grid .inner1400 .first_area ul li:hover img{ transform: scale(1.03);} 
+.first_area dl{text-align: justify;}
+.first_area dl dt{margin: 20px 0 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111;}
+.first_area dl dd{font-weight: 500; font-size: 1rem;}
+
+
+/* 두번째 영역 */
+.section-parallax{overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 105px 0 100px;
+    }
+
+    .section-parallax.aos-animate .background {
+    clip-path: circle(100% at 50% 50%);
+}
+.section-parallax .background {outline: 0; vertical-align: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../common/images/section02_background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: circle(10% at 50% 20%);
+    transition: clip-path ease 1.5s, background-position cubic-bezier(0, 0, 0.35, 1) .5s;
+}
+.section-parallax .text-wrap .tit {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+img {
+    display: inline-block;
+    border: none;
+    vertical-align: baseline;
+    max-width: 100%;
+}
+.section-parallax .text-wrap img {
+    margin: 15px 0 25px;
+    width: 295px;
+    height: auto;
+}
+.section-parallax .text-wrap .txt {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+.section-parallax .pureal-circle .icon-box {
+    width: 25%;
+    position: relative;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section-parallax .pureal-circle .icon-box .block {
+    position: relative;
+    padding-top: 100%;
+    width: 100%;
+    text-align: center;
+}
+.section-parallax .pureal-circle .icon-box .block .context {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.section-parallax .pureal-circle .icon-box .block .context img {
+    margin-bottom: 20px;
+    display: inline-block;
+    border: none;
+    vertical-align: baseline;
+}
+.section-parallax .pureal-circle .icon-box .block .context .label-wrap {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 500;
+}
+.section-parallax .pureal-circle .icon-box:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-50%);
+}
+
+
+
+.section-parallax { overflow: hidden; display: flex; align-items: center; justify-content: center; position: relative; padding: 105px 0 100px; }
+.section-parallax a { display: block; width: 100%; }
+.section-parallax .background { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url('../common/images/section02_background.jpg'); background-size: cover; background-repeat: no-repeat; clip-path: circle(10% at 50% 20%); transition: clip-path ease 1.5s, background-position cubic-bezier(0, 0, 0.35, 1) .5s; }
+.section-parallax .text-wrap { z-index: 2; position: relative; text-align: center; }
+.section-parallax .text-wrap .tit { font-size: 24px; font-weight: 500; color: #fff; }
+.section-parallax .text-wrap .txt { font-size: 18px; font-weight: 500; color: #fff; }
+.section-parallax .text-wrap img { margin: 15px 0 25px; width: 295px; height: auto; }
+.section-parallax.aos-animate .background { clip-path: circle(100% at 50% 50%); }
+
+.section-parallax .pureal-circle { display: flex; justify-content: space-between; position: relative; margin-top: 45px; }
+.section-parallax .pureal-circle .icon-box{ width: 25%; position:relative;  display: flex; justify-content: center; align-items: center; flex-direction:column;}
+.section-parallax .pureal-circle .icon-box:after{content:'';  position:absolute; top:50%; left:0; width:100%; height:0; padding-bottom:100%; border-radius:50%;  background:rgba(255,255,255,0.1); transform:translateY(-50%);}
+.section-parallax .pureal-circle .icon-box .block { position: relative; padding-top: 100%; width: 100%; text-align: center; }
+.section-parallax .pureal-circle .icon-box .block .context { display: flex; flex-direction: column; align-items: center; justify-content: center; position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.section-parallax .pureal-circle .icon-box .block .context img { margin-bottom: 20px; }
+.section-parallax .pureal-circle .icon-box .block .context .label-wrap {font-size: 26px; color:#fff; font-weight: 500;}
+.section-parallax .cursor { display: none; }
+
+
+
+

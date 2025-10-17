@@ -1,0 +1,30 @@
+/* 그룹개요 내용 콘텐츠 */
+#content .content_area{
+    width: 1400px; margin: 0 auto; 
+    padding-bottom: 150px;
+}
+/* 서브 메뉴 영역 */
+.sub_nav{border-bottom:1px solid #ccc;}
+.sub_nav ul{width: 1000px; margin: 0 auto;display: flex; justify-content: center;}
+.sub_nav ul li{width: 33.33%; box-sizing: border-box;
+         text-align: center;}
+.sub_nav ul li a{font-size:1.2rem; font-weight: 600;
+    padding: 15px 0; transition: all 5s ease-out;
+}
+.sub_nav ul li a:hover,.sub_nav ul li a.current{background: #3CB149; color: #fff;}
+
+
+
+
+
+
+
+
+
+
+                    
+
+
+
+
+

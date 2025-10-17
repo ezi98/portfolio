@@ -1,0 +1,142 @@
+/* 회사소개 내용 콘텐츠 */
+#content .content_area{
+    width: 1400px; margin: 0 auto;
+    padding-bottom: 150px;
+}
+/* 첫번째 라인 */
+#content .content_inner{width: 100%;margin: 0 auto;}
+#content .content .title_area span:nth-of-type(2){color: #333;}
+
+
+#content .content_area .vision_mission{
+    margin-bottom: 100px;}
+#content .content_area .vision_mission .vm_box{background-image: url(../images/content3/vm.png);
+    width: 2000px; height: 500px;
+    
+    position: relative; left: 50%; top: 150px;
+    transform: translate(-50%, -50%);
+    display: flex; justify-content: center; align-items: center;}
+
+#content .content_area .vision_mission h3{position: relative;}
+#content .content_area .vision_mission h3 ,
+#content .content_area .vision_mission h3 ~ span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem; font-weight: 800; letter-spacing: -2px;
+    text-align: center; margin-top: 100px;}
+#content .content_area .vision_mission h3::before{
+    content: ''; display: block;
+    width: 40px; height: 40px;
+    background: url("https://g01994.cafe24.com/sub1/css/../images/content3/highlighter.png");
+    position: absolute; left: 380px; top: 10px;}
+#content .content_area .vision_mission h3::after{
+    content: ""; display: block;
+    width: 40px; height: 40px;
+    background: url("https://g01994.cafe24.com/sub1/css/../images/content3/highlighter.png");
+    position: absolute; right: 380px; top: 10px;}
+#content .content_area .vision_mission h3 ~ span{display: block;
+    font-size: 1.5rem; font-weight: 500;
+    margin-top: 0; margin-bottom: 60px;}
+#content .content_area .vision_mission > p{display: block; 
+    text-align: center; font-size: 1.125em; 
+    line-height: 1.5em; margin-bottom: 150px;}
+
+#content .content_area .vision , 
+#content .content_area .mission{
+    width: 590px; height: 250px;
+    margin: 0 10px; 
+    background-color: #f5f5f5;; opacity: .9;
+    position: relative;
+    transition: all .5s ease-in-out;}
+#content .vm_box li:hover .vision,
+#content .vm_box li:hover .mission {
+    opacity: 1;}
+
+#content .content_area .vision h4, 
+#content .content_area .mission h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em; font-weight: 800;
+    font-style: italic; letter-spacing: -2px;
+    text-align: center; 
+    margin-bottom: 20px; padding-top: 20px;
+    transition: all .5s ease-in-out;} 
+#content .vm_box li:hover .vision h4, 
+#content .vm_box li:hover .mission h4{
+    color: #3CB149;}
+#content .content_area .vision span, 
+#content .content_area .mission span{
+    display: block; text-align: center;
+    padding: 0 20px;}
+#content .content_area .vision span:first-of-type, 
+#content .content_area .mission span:first-of-type{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1em; font-weight: 500;}
+#content .content_area .vision span:first-of-type{
+    margin-top: 20px; margin-bottom: 30px;}
+#content .content_area .mission span:first-of-type{
+    margin-bottom: 20px;}
+
+#content .vm_box .motion{
+    width: 590px; height: 250px;
+    margin: 0 10px; 
+    position: absolute; top: 125px;}
+#content .vm_box .motion span{
+    position: absolute; display: block; 
+    background:#6535B8; 
+    transition-property: all; 
+    transition-duration: .2s;}
+#content .vm_box .motion span:nth-child(1){
+    left:0; top:0; width: 0; height: 5px; transition-delay: .6s;}
+#content .vm_box .motion span:nth-child(2){
+    right:0; top:0; width: 5px; height: 0; transition-delay: .4s;}
+#content .vm_box .motion span:nth-child(3){
+    right:0; bottom:0; width: 0; height: 5px; transition-delay: .2s;}
+#content .vm_box .motion span:nth-child(4){
+    left:0; bottom:0; width: 5px; height: 0px; transition-delay: 0s;}
+#content .vm_box li:hover .motion span:nth-child(1){
+    width:100%; transition-delay: 0s;}
+#content .vm_box li:hover .motion span:nth-child(2){
+    height:100%; transition-delay: .2s;}
+#content .vm_box li:hover .motion span:nth-child(3){
+    width:100%; transition-delay: .4s;}
+#content .vm_box li:hover .motion span:nth-child(4){
+    height:100%; transition-delay:.6s;}
+
+/* 2번쨰 라인 */
+
+#content .cer_container{margin-top: 100px;}
+#content .cer_container .certification{display: flex; justify-content: center; gap: 80px; align-items: center;} 
+#content .cer_container .certification img{border: 1px solid #ccc;}
+#content .cer_container .certification dt{font-size: 2rem; font-weight: 500;margin-bottom: 10px;}
+#content .cer_container .certification dd{font-size: 1.2rem;margin-bottom: 30px;}
+
+/* 3번째 라인 */
+.future_section{background-color:#fff; display: flex; justify-content:center ; margin-top: 100px;}
+.content_area .future .future_inner{display: flex; justify-content: center;}
+.content_area .future{ padding-bottom: 30px;  width: 2000px;
+      height: 500px; ; margin: 0 auto; 
+}
+.content_area .future h3{text-align: center;padding-top: 80px; font-size: 2.5rem;}
+.content_area .future p{text-align: center;margin-top: 50px;margin-bottom: 50px;font-size: 1.4em; font-weight: 500;}
+.content_area .future div{overflow: hidden;}
+        
+.content_area .future dl{float: left;text-align: center;width: 210px;margin-left:23px;background-color: #fff;border-radius: 20px;margin: 10px 23px 10px 0;padding: 15px ;transition: all .3s ease;}
+.content_area .future dl:hover{box-shadow: 2px 2px 10px 2px rgba(0,0,0,.6);}
+.content_area .future dl:hover dd span{color: #023793;}
+.content_area .future dl:nth-of-type(1){margin-left: 28px;}
+.content_area .future dl dt{font-size: 1.7em;padding-bottom: 10px;}
+.content_area .future dl dd{margin-top: 10px;}
+.content_area .future dl dd span{font-size: 5em;}
+
+
+
+
+
+
+
+
+
+
+
+
+

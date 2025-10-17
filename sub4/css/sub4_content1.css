@@ -1,0 +1,77 @@
+/* 회사소개 내용 콘텐츠 */
+
+#content .content_area{
+    width: 1400px; margin: 0 auto;
+    
+}
+
+.content_area .faq{width:100%; border-bottom:1px solid #ddd;font-size:12px; margin: 0 0 150px 0;}  
+.content_area .faq .hgroup{position:relative;margin:100px 0 40px 0; }
+.content_area .faq .hgroup h2{font-size: 1.5rem; color: #3CB149; }  
+.content_area .faq ul{margin:0;padding:0;list-style:none}
+.content_area .faq ul li:nth-of-type(1){border-top: 2px solid #000;}  
+.content_area .faq .hgroup .all{position:absolute; top:5px; right:10px; color:#333; text-decoration:none;}  
+.content_area .faq .q{margin:0;padding: 0; border-top:1px solid #ddd; position: relative;
+    margin: 0;
+    padding: 10px 15px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    }  
+    .content_area .faq .q span{position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px;}
+
+.content_area .faq .q a.trigger{display:block;padding:30px;background:#fafafa;color:#333;text-align:left;text-decoration:none;
+    font-size: 1.2rem;}
+    .faq .q a::before{
+        font-family: FontAwesome;
+    content: "\f2c4";
+    display: block;
+    color: #6535B8;
+    }
+.content_area .faq .a::before{
+    font-family: FontAwesome;
+    content: "\f031";
+    display: inline-block;
+    margin-right: 10px;
+    color: #6535B8;}
+.content_area .faq .hide .q a.trigger{font-weight:normal;background:none}  
+.content_area .faq .q a.trigger:hover,  
+.content_area .faq .q a.trigger:active,  
+.content_area .faq .q a.trigger:focus{background:#feeddd;color:#000} 
+.content_area .faq .a{width: 840px; margin:0;line-height:1.5;
+     margin-top:0px; margin-bottom:0px; text-align: justify;
+      font-size: 1rem; display: none;
+    padding: 30px;}
+
+
+    
+    /* #content .content_area .cvs_list material-symbols-outlined{position: absolute; left: 50%;} */
+
+
+
+
+                
+    
+
+
+
+    
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+

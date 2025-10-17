@@ -1,0 +1,89 @@
+/* 그룹개요 내용 콘텐츠 */
+#content .content_area{
+    width: 1400px; margin: 0 auto; 
+    padding-bottom: 150px;
+}
+/* 서브 메뉴 영역 */
+.sub_nav{border-bottom:1px solid #ccc;}
+.sub_nav ul{width: 1000px; margin: 0 auto;display: flex;}
+
+.sub_nav ul li a{font-size:1.2rem; font-weight: 600;
+    padding: 15px 0; transition: all 5s ease-out;
+}
+.sub_nav ul li a:hover,.sub_nav ul li a.current{background: #3CB149; color: #fff;}
+
+
+
+
+
+
+
+
+#content .content_area .box1{ width: 1400px;height: 650px; }
+#content .content_area .box1 img{border-radius: 15px 15px 15px 0;}
+#content .content_area .box2{width: 1250px ;height: 300px;background:#fff;
+position: relative; top: -100px; left: 150px;
+    border-radius: 15px 0 0 0; outline: none;}
+#content .content_area .box2 dl{width: 1400px; height: 300px;
+    padding-left: 100px; padding-top: 50px; }
+#content .content_area .box2 dl dt{font-size: 2.5rem; font-weight: 500;}
+#content .content_area .box2 dl dd{font-size: 1.2rem;
+    font-weight: 400;
+    width: 880px;
+    padding-top: 30px;
+    line-height: 2.2rem;
+    text-align: justify;}
+    #content .content_area dl dd i{position: absolute;
+        top: 80px;
+        left: 85%;
+        font-size: 5rem;
+        color: #ccc;}
+
+#content .content_area .mid{padding: 0 20px 50px; margin-bottom: 50px;
+        border-bottom: 2px solid #050D1B;margin-top: 150px;}
+#content .content_area .mid p{font-size: 1.3rem; text-align: center;}
+
+
+
+
+#content .email_box{width:90%; margin: 0 auto;
+    border: 1px solid #f4f4f4; padding: 30px;
+    box-sizing: border-box;}
+#content .email_box div{padding: 20px;}
+#content .email_box label{font-size: 1.3rem;
+    font-weight: 700; margin-bottom: 15px; display: block;}
+#content .email_box input, #content .email_box textarea
+#content .email_box input, #content .email_box select,#content .email_box textarea{
+            padding: 15px 5%; width: 90%;
+            font-size: 1.5rem; border: 0; background: #fff;
+            color: purple;
+            border-radius: 15px; outline: none;
+            box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .1);
+            transition: all .5s ease-out;}
+
+#content .email_box input:focus, #content .email_box textarea:focus{
+               box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .1);
+               transform: scale(1.03); background: skyblue;}
+
+#content .email_box textarea{height: 200px;}
+#content button{padding: 15px 50px; background: #3CB149; 
+                        color: #fff; font-size: 1.2rem;
+                        border-radius: 15px; border: 0;
+                        margin: 150px auto 0; display: block; cursor: pointer;}
+                
+#content .email_info{border: 1px solid #f4f4f4; width: 90%; margin: 50px auto 0; box-sizing: border-box;
+             padding: 50px;}
+#content .email_info p{margin: 20px 0;}
+#content .email_info dl{margin-bottom: 30px;}
+#content .email_info dt{font-size: 1.25rem; font-weight: 600;
+                margin-bottom: 15px;}
+#content .email_info dd{line-height: 1.8rem; font-size: 1.1rem;}
+#content .consent-checkbox{display: flex;
+                        margin-top: 40px;
+                        justify-content: center;}
+                       
+                                            
+
+
+
+
