@@ -1,0 +1,72 @@
+/* display */
+@font-face {
+    font-family: 'HitmarkerCondensed';
+    src: url('../../HitmarkerFonts/18082023_Hitmarker/Display/Condensed/WOFF/HitmarkerCondensed-Black.woff2') format('woff2'),
+         url('../../HitmarkerFonts/18082023_Hitmarker/Display/Condensed/WOFF/HitmarkerCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'HitmarkerCondensed';
+    src: url('../../HitmarkerFonts/18082023_Hitmarker/Display/Condensed/WOFF/HitmarkerCondensed-Bold.woff2') format('woff2'),
+         url('../../HitmarkerFonts/18082023_Hitmarker/Display/Condensed/WOFF/HitmarkerCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'HitmarkerCondensed';
+    src: url('../../HitmarkerFonts/18082023_Hitmarker/Display/Condensed/WOFF/HitmarkerCondensed-Light.woff2') format('woff2'),
+         url('../../HitmarkerFonts/18082023_Hitmarker/Display/Condensed/WOFF/HitmarkerCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'HitmarkerCondensed';
+    src: url('../../HitmarkerFonts/18082023_Hitmarker/Display/Condensed/WOFF/HitmarkerCondensed-Medium.woff2') format('woff2'),
+         url('../../HitmarkerFonts/18082023_Hitmarker/Display/Condensed/WOFF/HitmarkerCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'HitmarkerCondensed';
+    src: url('../../HitmarkerFonts/18082023_Hitmarker/Display/Condensed/WOFF/HitmarkerCondensed-Regular.woff2') format('woff2'),
+         url('../../HitmarkerFonts/18082023_Hitmarker/Display/Condensed/WOFF/HitmarkerCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+/*text*/
+@font-face {
+    font-family: 'HitmarkerText';
+    src: url('../../HitmarkerFonts/18082023_Hitmarker/Text/WOFF/HitmarkerText-Regular.woff2') format('woff2'),
+         url('../../HitmarkerFonts/18082023_Hitmarker/Text/WOFF/HitmarkerText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'HitmarkerText';
+    src: url('../../HitmarkerFonts/18082023_Hitmarker/Text/WOFF/HitmarkerText-Medium.woff2') format('woff2'),
+         url('../../HitmarkerFonts/18082023_Hitmarker/Text/WOFF/HitmarkerText-Medium.woff') format('woff');
+    font-weight: 500; /*  Medium 폰트 */
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'HitmarkerText';
+    src: url('../../HitmarkerFonts/18082023_Hitmarker/Text/WOFF/HitmarkerText-Bold.woff2') format('woff2'),
+         url('../../HitmarkerFonts/18082023_Hitmarker/Text/WOFF/HitmarkerText-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'HitmarkerText';
+    src: url('../../HitmarkerFonts/18082023_Hitmarker/Text/WOFF/HitmarkerText-Italic.woff2') format('woff2'),
+         url('../../HitmarkerFonts/18082023_Hitmarker/Text/WOFF/HitmarkerText-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+  }
